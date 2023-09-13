@@ -75,6 +75,7 @@ body {
 	flex: 2
 }
 .about-me__title {
+	display: block;
 	margin-top: 1em;
 	margin-bottom: 60px;
 	font-size: 30px;
@@ -91,17 +92,20 @@ body {
 }
 
 #gallery {
-	/*	min-height: 100vh; */
+	min-height: 100vh;
 }
+
 .title{
-	text-align: center;
-	padding-block: 2em;
+	font-size: 28px;
+	display: flex;
+	justify-content: center;
+	padding: 56px;
 }
 .gallery .nav {
 	justify-content: center;
 }
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-	color: #fff;
+	color: black;
 	background-color: #BEB45A;
 	border-radius:0 ;
 }
@@ -144,11 +148,12 @@ body {
 	padding-block: 3em;
 }
 .quote__text {
+	font-size: 2.5rem;
 	font-family: Spectral;
 	font-style: italic;
 	font-weight: 300;
-
 }
+
 .quote__author {
 	font-family: Spectral;
 	font-weight: 800;
@@ -189,7 +194,12 @@ body {
 	justify-content: space-between;
 	z-index: 1;
 }
-
+h4 {
+	font-size: 28px;
+}
+h5 {
+	font-size: 24px;
+}
 #contact {
 	margin: auto;
 	background-color: #D8D3A8 ;
@@ -257,6 +267,9 @@ input[type="submit"] {
 	}
 	#about-me h6, #about-me p {
 		width: 100%;
+	}
+	.quote__text {
+		font-size: 2.2rem;
 	}
 }
 
@@ -351,6 +364,9 @@ input[type="submit"] {
 	}
 	.picture {
 		width: 80%;
+	}
+	.quote__text {
+		font-size: 2rem;
 	}
 }
 

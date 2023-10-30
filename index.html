@@ -3,41 +3,40 @@
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css">
-	<link rel="stylesheet" href="./assets/style.css">
+	<link rel="stylesheet" href="./assets/style.css" defer>
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" rel="stylesheet">
-	
-    <title>Portfolio Nina Carducci</title>
-    <meta name="description" content="Photographe Portfolio Nina Carducci">
+	<link rel="icon" type="image/svg+xml" href="assets/Favicon/favicon.png">
 
-	<meta itemprop="name" content="Nina Carducci" />
-    <meta itemprop="description" content="Portfolio de Nina Carducci"/>
-    <meta itemprop="image" content="assets/images/nina.webp" alt="photo de Nina" />
+	<title>Portfolio Nina Carducci</title>
+    <meta name="description" content="Photographe Portfolio Nina Carducci Shooting photo Bordeaux Album photos Mariages Portrait Concert Entreprises">
 
     <meta property="og:url" content="https://alwgny.github.io/Nina-Carducci/">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Portfolio Nina Carducci">
-    <meta property="og:description" content="Portfolio Nina Carducci">
-    <meta property="og:image" content="https://alwgny.github.io/Nina-Carducci/assets/images/nina.webp" alt="photo de Nina">
+    <meta property="og:description" content="Photographe Portfolio Nina Carducci Shooting photo Bordeaux Album photos Mariages Portrait Concert Entreprises">
+    <meta property="og:image" content="https://alwgny.github.io/Nina-Carducci/assets/images/nina.webp">
  
-    <meta name="twitter:card" content="summary_large_image">
+    <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:domain" content="alwgny.github.io">
     <meta property="twitter:url" content="https://alwgny.github.io/Nina-Carducci/">
-    <meta name="twitter:title" content="Portfolio Nina Carducci">
-    <meta name="twitter:description" content="Portfolio Nina Carducci">
-    <meta name="twitter:image" content="https://alwgny.github.io/Nina-Carducci/assets/images/nina.webp" alt="photo de Nina">
+    <meta property="twitter:title" content="Portfolio Nina Carducci">
+    <meta property="twitter:description" content="Photographe Portfolio Nina Carducci Shooting photo Bordeaux Album photos Mariages Portrait Concert Entreprises">
+    <meta property="twitter:image" content="https://alwgny.github.io/Nina-Carducci/assets/images/nina.webp">
 	
-	<script src="./assets/bootstrap/bootstrap.bundle.min.js"></script>
-	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-	<script src="./assets/maugallery.min.js"></script>
-	<script src="./assets/scripts.min.js"></script>
+	<script src="./assets/bootstrap/bootstrap.bundle.min.js" defer></script>
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous" defer></script>
+	<script src="./assets/maugallery.min.js" defer></script>
+	<script src="./assets/scripts.min.js" defer></script>	
 	<script type="application/ld+json">
 		{
 		  "@context": "http://schema.org",
-		  "@type": "LocalBusiness",
+		  "@type": "Person",
 		  "name": "Nina Carducci",
+		  "description": "Photographe professionnelle",
 		  "image": "https://alwgny.github.io/Nina-Carducci/assets/images/nina.webp",
+		  "telephone": "05 56 67 78 89",
 		  "address": {
 			"@type": "PostalAddress",
 			"streetAddress": "68 avenue Alsace-Lorraine",
@@ -45,15 +44,14 @@
 			"postalCode": "33200",
 			"addressCountry": "FR"
 		  },
-		  "telephone": "05 56 67 78 89",
 		  "openingHours": "Mo-Fr 10:00-19:00"
 		}
-		</script>	
+		</script>
 </head>
 <body>
-<nav class="top-header">
+<header class="top-header">
 	<h1 class="name">Nina Carducci</h1>
-	<div class="nav">   
+	<nav class="nav">   
 		<ul>
 			<li><a href="#about">À propos</a></li>
 			<li><a href="#gallery">Galerie</a></li>
@@ -61,9 +59,9 @@
 			<li><a href="#contact">Contact</a></li>
 			<li><a class="social-link" href="https://www.instagram.com/ninacarducci.photo/?hl=fr" target="_blank"><img src="assets/images/instagram.png" alt="logo instagram"></a></li>
 		</ul>
-	</div>
-</nav>
-<div id="header">
+	</nav>
+</header>
+<main id="header">
 
 	<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
 		<div class="carousel-indicators">
@@ -91,7 +89,6 @@
 			<span class="visually-hidden">Next</span>
 		</button>
 	</div>
-</div>
 <div id="about">
 	<div class="picture left">
 		<img src="./assets/images/nina.webp" alt="nina carducci">
@@ -104,7 +101,7 @@
 	</div>
 </div>
 <div id="gallery">
-	<h3 class="title">Portfolio</h3>
+	<h2 class="title">Portfolio</h2>
 	<div class="container py-3">
 		<div class="gallery" style="display: none">
 			<img data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash.webp" alt="pov public dans un concert"/>
@@ -128,36 +125,36 @@
 	</div>
 </div>
 <div id="services">
-	<h3 class="title">Mes services</h3>
+	<h2 class="title">Mes services</h2>
 	<div class="container">
 		<div class="service">
 			<div class="service__description">
-				<h4>Shooting photo</h4>
+				<h3>Shooting photo</h3>
 				<p>Pour capturer vos moments les plus précieux et garder un souvenir impérissable. Je me déplace en Île-de-France pour réaliser vos photos</p>
 			</div>
 			<div class="service__price">
-				<h5>350€/demi journée</h5>
+				<h4>350€/demi journée</h4>
 				<span>Matériel, déplacement inclus</span>
 			</div>
 
 		</div>
 		<div class="service">
 			<div class="service__description">
-				<h4>Retouches</h4>
+				<h3>Retouches</h3>
 				<p>Vous souhaitez retoucher vos photos pour un résultat professionnel ? Bénéficier d’un rendu optimal pour vos publications</p>
 			</div>
 			<div class="service__price">
-				<h5>50€/photo</h5>
+				<h4>50€/photo</h4>
 				<span>2 AR par photo</span>
 			</div>
 		</div>
 		<div class="service">
 			<div class="service__description">
-				<h4>Album photos</h4>
+				<h3>Album photos</h3>
 				<p>Partagez avec vos proches et vos clients les photos des moments partagés ensemble à travers un album photo personnalisé</p>
 			</div>
 			<div class="service__price">
-				<h5>400€ album A4</h5>
+				<h4>400€ album A4</h4>
 				<span>30 pages recto/verso</span>
 			</div>
 		</div>
@@ -170,13 +167,15 @@
 		</blockquote>
 		<figcaption class="quote__author">- Richard Avedon</figcaption>
 	</figure>
-</div>
-<div id="contact">
+	</div>
+</main>	
+
+<footer id="contact">
 	<div class="container">
 		<div class="form-container">
-			<h6>Une question ? Une demande de devis ?</h6>
+			<h2>Une question ? Une demande de devis ?</h2>
 			<p> N’hésitez pas à m’écrire ! Je vous répondrais en moins de 24 heures</p>
-			<form action="" method="post">
+			<form method="post">
 				<label>Nom:
 				    <input type="text" name="nom" id="nom">
 			    </label>
@@ -193,6 +192,6 @@
 			<img src="./assets/images/camera.webp" alt="photo d'un appareil photo">
 		</div>
 	</div>
-</div>
+</footer>
 </body>
 </html>
